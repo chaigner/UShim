@@ -14,11 +14,18 @@
 %
 % This code is free under the terms of the GPL-3.0 license.
 
-%load the CSPINE data
-load('data/CSpine_data.mat'); 
+filename = 'data/CSpine_data.mat';    % CSPINE datasets
+% filename = 'data/TLSpine_data.mat'; % TLSPINE datasets
 
-%load the TLSPINE data
-% load('TLSpine_data.mat');
+%check if the files exist and load the in vivo B1+ datasets 
+if isfile(filename)
+    % File exists.
+    load(filename); 
+else
+    % File does not exist.
+    disp('The channel-wise in vivo B1+ datasets are available at:');
+    disp('https://doi.org/10.6084/m9.figshare.14778345.v2');
+end
 
 %load the phase init
 load('data/Matlab_WS_Startphases_cxX0_1000x64.mat');
