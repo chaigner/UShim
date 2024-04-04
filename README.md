@@ -1,6 +1,6 @@
 # UShim
 
-This repository contains a MATLAB implementation to load channel-wise in vivo B1+ datasets of the human cervical and thoracolumbar spine at 7T and to compute and evaluate universal RF shims as described in [1]. The channel-wise in vivo B1+ datasets of the human body at 7T are available at: [https://doi.org/10.6084/m9.figshare.14778345.v2 ](https://doi.org/10.6084/m9.figshare.25233385.v1).
+This repository contains a MATLAB implementation to load channel-wise in vivo B1+ datasets of the human cervical and thoracolumbar spine at 7T and to compute and evaluate universal RF shims as described in [1]. The channel-wise in vivo B1+ datasets of the human body at 7T are available at: [https://doi.org/10.6084/m9.figshare.25233385.v1](https://doi.org/10.6084/m9.figshare.25233385.v1).
 
 
 ##### Authors:
