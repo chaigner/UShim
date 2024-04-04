@@ -55,5 +55,6 @@ Reference
 ---------
 
 [1] Aigner, Sanchez Alarcon, D'Astous, Alonso-Ortiz, Cohen-Adad and Schmitter. Calibration-Free Parallel Transmission of the Cervical, Thoracic, and Lumbar Spinal Cord at 7T. Submitted to MRM
+
 Created by Christoph S. Aigner, PTB, Feb 2024.
 Email: christoph.aigner@ptb.de
