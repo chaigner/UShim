@@ -25,7 +25,8 @@ load('data/Matlab_WS_Startphases_cxX0_1000x64.mat');
 
 %params
 optsdef.BETA0           = cxX0; %starting phase
-optsdef.NOOFSTARTPHASES = 8;
+optsdef.NOOFSTARTPHASES = 8;    %compute 8 solutions with different init
+optsdef.LAMBDA          = 0.05; %cost homogeneity-efficiency weighting 
 numb_subjects = size(ROI.masks,3);
 
 %compute universal RF shims with different phase inits
