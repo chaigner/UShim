@@ -20,7 +20,21 @@ Contents
     main.m          test script to compute and evaluate tailored and universal pulses at 7T
 
 ##### Routines called by the test scripts:
-    TBD
+    b1_phase_shimming_TXfct.m 	computes the b1+ phase shim
+    caller_name.m			returns name (and line) of calling routine or file, or name further up or down the stack by changing level.
+    catstruct.m			concatenates or merges structures with different fieldnames
+    cmocean.m			returns perceptually-uniform colormaps, created by Kristen Thyng
+    makeColVec.m			makes a column vector of the input vector
+    montager.m			makes montage or mosaic of set of images, created by Jeff Fessler
+    multiprod.m			multiplying 1-D or 2-D subarrays contained in two N-D arrays, created by Paolo de Leva
+    parseVariableInputs.m		pareses input variables
+    quantify_phase_shim_TXfct.m	quantifies the coefficient of variation and the efficiency for phase shimming
+    rot90m.m 			rotates a matrix by 90 deg
+    rot180.m			rotates a matrix by 180 deg
+    rot270.m			rotates a matrix by 270 deg
+    show_shim_prediction_TXfct.m	plots the shim prediction based on the shimset 
+    show3dWithMaskm.m		plots all slices of a 3D or 4D matrix
+    vararg_pair.m			processes name / value pairs, replacing the "default" field values of the opt structure with the user-specified values, created by Jeff Fessler
     
 ##### External data files used by the test scripts:
     CSpine_data.mat      available at [https://doi.org/10.6084/m9.figshare.14778345.v2 ](https://doi.org/10.6084/m9.figshare.25233385.v1)
