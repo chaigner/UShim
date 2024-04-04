@@ -7,7 +7,7 @@
 % Thoracic, and Lumbar Spinal Cord at 7T. Submitted to MRM 
 %
 % The channel-wise in vivo B1+ datasets of the human body at 7T are 
-% available at: https://doi.org/10.6084/m9.figshare.14778345.v2 .
+% available at: https://doi.org/10.6084/m9.figshare.25233385.v1 .
 %
 % Created by Christoph S. Aigner, PTB, February 2024.
 % Email: christoph.aigner@ptb.de
@@ -24,7 +24,7 @@ if isfile(filename)
 else
     % File does not exist.
     disp('The channel-wise in vivo B1+ datasets are available at:');
-    disp('https://doi.org/10.6084/m9.figshare.14778345.v2');
+    disp('https://doi.org/10.6084/m9.figshare.25233385.v1');
 end
 
 %load the phase init
